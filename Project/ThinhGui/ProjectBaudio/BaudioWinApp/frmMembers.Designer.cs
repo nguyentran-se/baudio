@@ -31,9 +31,6 @@ namespace BaudioWinApp
         {
             this.btnAsc = new System.Windows.Forms.Button();
             this.btnDesc = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btSearch = new System.Windows.Forms.Button();
-            this.txtSearchUsername = new System.Windows.Forms.TextBox();
             this.dgvMemberList = new System.Windows.Forms.DataGridView();
             this.btnRemove = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
@@ -69,32 +66,6 @@ namespace BaudioWinApp
             this.btnDesc.Text = "Desc";
             this.btnDesc.UseVisualStyleBackColor = true;
             this.btnDesc.Click += new System.EventHandler(this.btnDesc_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(505, 198);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 20);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Username";
-            // 
-            // btSearch
-            // 
-            this.btSearch.Location = new System.Drawing.Point(765, 220);
-            this.btSearch.Name = "btSearch";
-            this.btSearch.Size = new System.Drawing.Size(116, 29);
-            this.btSearch.TabIndex = 27;
-            this.btSearch.Text = "Search";
-            this.btSearch.UseVisualStyleBackColor = true;
-            // 
-            // txtSearchUsername
-            // 
-            this.txtSearchUsername.Location = new System.Drawing.Point(505, 221);
-            this.txtSearchUsername.Name = "txtSearchUsername";
-            this.txtSearchUsername.Size = new System.Drawing.Size(254, 27);
-            this.txtSearchUsername.TabIndex = 26;
             // 
             // dgvMemberList
             // 
@@ -239,9 +210,6 @@ namespace BaudioWinApp
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnAsc);
             this.Controls.Add(this.btnDesc);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btSearch);
-            this.Controls.Add(this.txtSearchUsername);
             this.Controls.Add(this.dgvMemberList);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnUpdate);
@@ -267,9 +235,6 @@ namespace BaudioWinApp
 
         private System.Windows.Forms.Button btnAsc;
         private System.Windows.Forms.Button btnDesc;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btSearch;
-        private System.Windows.Forms.TextBox txtSearchUsername;
         private System.Windows.Forms.DataGridView dgvMemberList;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.Button btnUpdate;

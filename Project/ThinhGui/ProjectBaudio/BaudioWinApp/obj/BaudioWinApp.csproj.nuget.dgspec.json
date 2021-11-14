@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj": {}
+    "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj": {}
   },
   "projects": {
-    "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj": {
+    "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
+        "projectUniqueName": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
         "projectName": "BaudioService",
-        "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
-        "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
-        "outputPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\obj\\",
+        "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
+        "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+        "outputPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,21 +71,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
-        "outputPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\obj\\",
+        "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+        "outputPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,21 +129,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj": {
+    "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
-        "outputPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\obj\\",
+        "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+        "outputPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,8 +161,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj"
+              "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -189,21 +201,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj": {
+    "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
+        "projectUniqueName": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
         "projectName": "BaudioWinApp",
-        "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
-        "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
-        "outputPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\obj\\",
+        "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
+        "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+        "outputPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,14 +233,14 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj": {
-                "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj"
+              "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj": {
+                "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj"
               },
-              "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj"
+              "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj"
+              "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -256,7 +272,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

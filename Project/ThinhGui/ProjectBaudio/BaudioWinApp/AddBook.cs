@@ -80,7 +80,7 @@ namespace BaudioWinApp
             //txtPdfUrl.Text = audioURL;
             //bookRepository.InsertBook(book);
             audioHistory.InsertHistory(memberAudioHistoryObject);
-
+            this.Hide();
         }
     }
 }

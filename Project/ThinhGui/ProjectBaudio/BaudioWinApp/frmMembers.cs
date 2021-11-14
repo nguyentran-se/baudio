@@ -118,11 +118,6 @@ namespace BaudioWinApp
             txtPassword.Text = string.Empty;
         }
 
-        private void ClearSearchBox()
-        {
-            txtSearchUsername.Clear();
-        }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
             var frmMemberDetail = new frmMemberDetail()

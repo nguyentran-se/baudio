@@ -16,12 +16,12 @@ namespace BaudioService.Apis
         {
             using var httpClient = new HttpClient();
             using var request = new HttpRequestMessage(new HttpMethod("POST"), "https://api.zalo.ai/v1/tts/synthesize");
-            request.Headers.TryAddWithoutValidation("apikey", "X8DEEy2VxgisgSxJa9xHcIoec4n5M3gi");
+            request.Headers.TryAddWithoutValidation("apikey", "VR7xwYYWhF2HV5637zuoitvyO4uop93n");
 
             var contentList = new List<string>
                     {
                         $"input={Uri.EscapeDataString(content)}",
-                        "speaker_id=1",
+                        "speaker_id=2",
                         "encode_type=0"
                     };
             request.Content = new StringContent(string.Join("&", contentList));

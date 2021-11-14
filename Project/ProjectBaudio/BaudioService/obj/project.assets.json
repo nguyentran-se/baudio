@@ -99,19 +99,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\truon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
+      "projectUniqueName": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
       "projectName": "BaudioService",
-      "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
-      "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
-      "outputPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\obj\\",
+      "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj",
+      "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+      "outputPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\GIT\\baudio\\Project\\ProjectBaudio\\BaudioService\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -164,7 +169,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   },

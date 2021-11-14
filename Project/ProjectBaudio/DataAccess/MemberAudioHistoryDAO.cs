@@ -17,7 +17,28 @@ namespace DataAccess
 
         internal void Remove(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                MemberAudioHistoryObject result = GetHistoryByHistoryID(id);
+                if (result != null)
+                {
+                    string SQLDelete = "Delete MemberAudioHistory where HistoryID = @HistoryID";
+                    var param = dataProvider.CreateParameter("@HistoryID", 4, id, DbType.Int32);
+                    dataProvider.Delete(SQLDelete, CommandType.Text, param);
+                }
+                else
+                {
+                    throw new Exception("This History is not exist.");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
         }
 
         internal MemberAudioHistoryObject GetHistoryByHistoryID(int id)
@@ -37,9 +58,9 @@ namespace DataAccess
                         HistoryID = dataReader.GetInt32(0),
                         MemberId = dataReader.GetInt32(1),
                         //BookID = dataReader.GetInt32(2),
-                        BookName = dataReader.GetString(3).Trim(),
-                        AudioPath = dataReader.GetString(4).Trim(),
-                        AddedDate = dataReader.GetDateTime(5)
+                        BookName = dataReader.GetString(2).Trim(),
+                        AudioPath = dataReader.GetString(3).Trim(),
+                        AddedDate = dataReader.GetDateTime(4)
                     };
                 }
             }
@@ -58,7 +79,7 @@ namespace DataAccess
         internal IEnumerable<MemberAudioHistoryObject> GetHistoryList()
         {
             IDataReader dataReader = null;
-            string SQLSelect = "Select HistoryID, MemberId, BookName, AudioPath, AddedDate";
+            string SQLSelect = "Select HistoryID, MemberId, BookName, AudioPath, AddedDate from MemberAudioHistory";
             var list = new List<MemberAudioHistoryObject>();
             try
             {
@@ -104,7 +125,6 @@ namespace DataAccess
                     {
                         HistoryID = dataReader.GetInt32(0),
                         MemberId = dataReader.GetInt32(1),
-                        //BookID = dataReader.GetInt32(2),
                         BookName = dataReader.GetString(2).Trim(),
                         AudioPath = dataReader.GetString(3).Trim(),
                         AddedDate = dataReader.GetDateTime(4)
@@ -152,11 +172,11 @@ namespace DataAccess
                 MemberAudioHistoryObject result = GetHistoryByHistoryID(history.HistoryID);
                 if (result != null)
                 {
-                    string SQLUpdate = "Update MemberAudioHistory BookName = @BookName" +
-                                    "where HistoryID = @HistoryID";
+                    string SQLUpdate = "Update MemberAudioHistory set BookName = @BookName" +
+                                    " where HistoryID = @HistoryID";
                     var parameters = new List<SqlParameter>();
                     parameters.Add(dataProvider.CreateParameter("@BookName", 100, history.BookName, DbType.String));
-                    parameters.Add(dataProvider.CreateParameter("@MemberId", 4, history.HistoryID, DbType.Int32));
+                    parameters.Add(dataProvider.CreateParameter("@HistoryID", 4, history.HistoryID, DbType.Int32));
                     dataProvider.Update(SQLUpdate, CommandType.Text, parameters.ToArray());
                 }
                 else

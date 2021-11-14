@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Prese
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaudioWinApp", "..\ThinhGui\ProjectBaudio\BaudioWinApp\BaudioWinApp.csproj", "{D624B327-9AB4-4E36-ABE0-7C1DAD0F5857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaudioService", "BaudioService\BaudioService.csproj", "{B974D47E-6A09-4DDA-870D-6599561CA676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{95F93D4E-B193-4452-93B6-ECDE6654BC68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{D624B327-9AB4-4E36-ABE0-7C1DAD0F5857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D624B327-9AB4-4E36-ABE0-7C1DAD0F5857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D624B327-9AB4-4E36-ABE0-7C1DAD0F5857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B974D47E-6A09-4DDA-870D-6599561CA676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B974D47E-6A09-4DDA-870D-6599561CA676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B974D47E-6A09-4DDA-870D-6599561CA676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B974D47E-6A09-4DDA-870D-6599561CA676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{7D7DEFED-81B1-4291-9772-669B6888071D} = {312115FA-41B7-47E2-B681-0F01A70E0697}
 		{AE25806E-FEBE-4CC1-816E-EC2B7A89A99B} = {99056C4A-992E-47D0-8E07-9CCBAB0FF14A}
 		{D624B327-9AB4-4E36-ABE0-7C1DAD0F5857} = {528C0B27-6387-4314-9E9C-B1A1E6A45909}
+		{B974D47E-6A09-4DDA-870D-6599561CA676} = {95F93D4E-B193-4452-93B6-ECDE6654BC68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {448C7DDB-9FCA-454C-BE7F-605075393628}

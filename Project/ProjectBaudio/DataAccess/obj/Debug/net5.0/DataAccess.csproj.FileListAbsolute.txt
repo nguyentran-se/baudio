@@ -62,3 +62,19 @@ D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0
 D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.dll
 D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\appsettings.json
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\BusinessObject.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\bin\Debug\net5.0\BusinessObject.pdb
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\DataAccess\obj\Debug\net5.0\DataAccess.pdb

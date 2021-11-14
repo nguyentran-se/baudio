@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ProjectBaudio\BaudioService\BaudioService.csproj" />
     <ProjectReference Include="..\..\..\ProjectBaudio\BusinessObject\BusinessObject.csproj" />
     <ProjectReference Include="..\..\..\ProjectBaudio\DataAccess\DataAccess.csproj" />
   </ItemGroup>

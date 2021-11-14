@@ -24,7 +24,7 @@ namespace DataAccess
         {
             MemberAudioHistoryObject memberAudioHistory = null;
             IDataReader dataReader = null;
-            string SQLSelect = "Select HistoryID, MemberId, BookID, BookName, AudioPath, AddedDate" +
+            string SQLSelect = "Select HistoryID, MemberId, BookName, AudioPath, AddedDate" +
                 " from MemberAudioHistory where HistoryID = @historyID";
             try
             {
@@ -36,7 +36,7 @@ namespace DataAccess
                     {
                         HistoryID = dataReader.GetInt32(0),
                         MemberId = dataReader.GetInt32(1),
-                        BookID = dataReader.GetInt32(2),
+                        //BookID = dataReader.GetInt32(2),
                         BookName = dataReader.GetString(3).Trim(),
                         AudioPath = dataReader.GetString(4).Trim(),
                         AddedDate = dataReader.GetDateTime(5)
@@ -58,7 +58,7 @@ namespace DataAccess
         internal IEnumerable<MemberAudioHistoryObject> GetHistoryList()
         {
             IDataReader dataReader = null;
-            string SQLSelect = "Select HistoryID, MemberId, BookID, BookName, AudioPath, AddedDate";
+            string SQLSelect = "Select HistoryID, MemberId, BookName, AudioPath, AddedDate";
             var list = new List<MemberAudioHistoryObject>();
             try
             {
@@ -69,10 +69,10 @@ namespace DataAccess
                     {
                         HistoryID = dataReader.GetInt32(0),
                         MemberId = dataReader.GetInt32(1),
-                        BookID = dataReader.GetInt32(2),
-                        BookName = dataReader.GetString(3).Trim(),
-                        AudioPath = dataReader.GetString(4).Trim(),
-                        AddedDate = dataReader.GetDateTime(5)
+                        //BookID = dataReader.GetInt32(2),
+                        BookName = dataReader.GetString(2).Trim(),
+                        AudioPath = dataReader.GetString(3).Trim(),
+                        AddedDate = dataReader.GetDateTime(4)
                     });
                 }
             }
@@ -91,7 +91,7 @@ namespace DataAccess
         internal IEnumerable<MemberAudioHistoryObject> GetHistoryListByUserID(object id)
         {
             IDataReader dataReader = null;
-            string SQLSelect = "Select HistoryID, MemberId, BookID, BookName, AudioPath, AddedDate"+
+            string SQLSelect = "Select HistoryID, MemberId, BookName, AudioPath, AddedDate" +
                                 " from MemberAudioHistory where MemberId = @MemberId";
             var list = new List<MemberAudioHistoryObject>();
             try
@@ -104,10 +104,10 @@ namespace DataAccess
                     {
                         HistoryID = dataReader.GetInt32(0),
                         MemberId = dataReader.GetInt32(1),
-                        BookID = dataReader.GetInt32(2),
-                        BookName = dataReader.GetString(3).Trim(),
-                        AudioPath = dataReader.GetString(4).Trim(),
-                        AddedDate = dataReader.GetDateTime(5)
+                        //BookID = dataReader.GetInt32(2),
+                        BookName = dataReader.GetString(2).Trim(),
+                        AudioPath = dataReader.GetString(3).Trim(),
+                        AddedDate = dataReader.GetDateTime(4)
                     });
                 }
             }
@@ -123,9 +123,26 @@ namespace DataAccess
             return list;
         }
 
-        internal int AddNew(MemberAudioHistoryObject order)
+        internal void AddNew(MemberAudioHistoryObject history)
         {
-            throw new NotImplementedException();
+            try
+            {
+                string SQLInsert = "Insert MemberAudioHistory values(@MemberID, @BookName, @AudioPath, @AddedDate)";
+                var parameters = new List<SqlParameter>();
+                parameters.Add(dataProvider.CreateParameter("@MemberID", 100, history.MemberId, DbType.Int32));
+                parameters.Add(dataProvider.CreateParameter("@BookName", 100, history.BookName, DbType.String));
+                parameters.Add(dataProvider.CreateParameter("@AudioPath", 100, history.AudioPath, DbType.String));
+                parameters.Add(dataProvider.CreateParameter("@AddedDate", 15, history.AddedDate, DbType.DateTime));
+                dataProvider.Insert(SQLInsert, CommandType.Text, parameters.ToArray());
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
         }
 
         internal void Update(MemberAudioHistoryObject history)

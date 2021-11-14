@@ -17,7 +17,7 @@ namespace DataAccess.Repository
 
         public IEnumerable<MemberAudioHistoryObject> GetHistoryListByUserID(int orderId) => MemberAudioHistoryDAO.Instance.GetHistoryListByUserID(orderId);
 
-        public int InsertHistory(MemberAudioHistoryObject order) => MemberAudioHistoryDAO.Instance.AddNew(order);
+        public void InsertHistory(MemberAudioHistoryObject order) => MemberAudioHistoryDAO.Instance.AddNew(order);
 
         public void UpdateHistory(MemberAudioHistoryObject order) => MemberAudioHistoryDAO.Instance.Update(order);
     }

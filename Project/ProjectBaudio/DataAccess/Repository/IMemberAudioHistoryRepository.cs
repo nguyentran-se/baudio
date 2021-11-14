@@ -12,7 +12,7 @@ namespace DataAccess.Repository
         public IEnumerable<MemberAudioHistoryObject> GetHistoryList();
         public IEnumerable<MemberAudioHistoryObject> GetHistoryListByUserID(int orderId);
         MemberAudioHistoryObject GetHistoryByHistoryID(int id);
-        int InsertHistory(MemberAudioHistoryObject order);
+        void InsertHistory(MemberAudioHistoryObject order);
         void DeleteHistory(int id);
         void UpdateHistory(MemberAudioHistoryObject order);
     }

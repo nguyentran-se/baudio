@@ -10,7 +10,7 @@ namespace BusinessObject
     {
         public int HistoryID { get; set; }
         public int MemberId { get; set; }
-        public int BookID { get; set; }
+        //public int BookID { get; set; }
         public string BookName { get; set; }
         public string AudioPath { get; set; }
         public DateTime AddedDate { get; set; }
@@ -23,7 +23,7 @@ namespace BusinessObject
         {
             HistoryID = historyID;
             MemberId = memberId;
-            BookID = bookID;
+            //BookID = bookID;
             BookName = bookName;
             AudioPath = audioPath;
             AddedDate = addedDate;

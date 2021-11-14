@@ -46,3 +46,15 @@ D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\BusinessObject\obj\Debug\ne
 D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
 D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
 D:\ChuyenNganh5\PRN211 - FAL21\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+D:\E disk learning\FPT Semeter\SE SMT-5 SEP 21\PRN211\baudio\Project\ProjectBaudio\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb

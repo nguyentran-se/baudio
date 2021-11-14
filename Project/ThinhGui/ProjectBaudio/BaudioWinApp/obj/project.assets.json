@@ -38,6 +38,27 @@
           "lib/netstandard2.0/Azure.Identity.dll": {}
         }
       },
+      "BouncyCastle/1.8.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "iTextSharp/5.5.13.2": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle": "1.8.6.1"
+        },
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "type": "package",
         "compile": {
@@ -343,6 +364,15 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -590,6 +620,23 @@
           }
         }
       },
+      "BaudioService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "iTextSharp": "5.5.13.2"
+        },
+        "compile": {
+          "bin/placeholder/BaudioService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaudioService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "BusinessObject/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -650,6 +697,35 @@
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml",
         "pkgicon.png"
+      ]
+    },
+    "BouncyCastle/1.8.6.1": {
+      "sha512": "rkqpuKmJkdcfTMBkIj1b5nMdBAWKwAyh+I/BQYeqqSD2jkIlhwc9qBNKmSbnpmmm5c29qHZGLpvBSTNWvDLtQA==",
+      "type": "package",
+      "path": "bouncycastle/1.8.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bouncycastle.1.8.6.1.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "iTextSharp/5.5.13.2": {
+      "sha512": "8m9oT1nh9F4Z1tzWUey/8lEzZtMGFCDXQY5+8/SSmPgUWAAAWniRo8pimKUZyteNqJr5vtFBxjAhRwLxG7Q0zQ==",
+      "type": "package",
+      "path": "itextsharp/5.5.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "gnu-agpl-v3.0.md",
+        "itextsharp.5.5.13.2.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/iTextSharp.xml",
+        "lib/itextsharp.dll",
+        "notice.txt"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -1236,6 +1312,33 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "System.Buffers/4.5.0": {
@@ -1851,6 +1954,11 @@
         "version.txt"
       ]
     },
+    "BaudioService/1.0.0": {
+      "type": "project",
+      "path": "../../../ProjectBaudio/BaudioService/BaudioService.csproj",
+      "msbuildProject": "../../../ProjectBaudio/BaudioService/BaudioService.csproj"
+    },
     "BusinessObject/1.0.0": {
       "type": "project",
       "path": "../../../ProjectBaudio/BusinessObject/BusinessObject.csproj",
@@ -1864,29 +1972,25 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "BaudioService >= 1.0.0",
       "BusinessObject >= 1.0.0",
       "DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\truon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Nguyen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
+      "projectUniqueName": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
       "projectName": "BaudioWinApp",
-      "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
-      "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
-      "outputPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\obj\\",
+      "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\BaudioWinApp.csproj",
+      "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
+      "outputPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ThinhGui\\ProjectBaudio\\BaudioWinApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1900,11 +2004,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj"
+            "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj": {
+              "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BaudioService\\BaudioService.csproj"
             },
-            "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\ChuyenNganh5\\PRN211 - FAL21\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj"
+            "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\BusinessObject\\BusinessObject.csproj"
+            },
+            "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\E disk learning\\FPT Semeter\\SE SMT-5 SEP 21\\PRN211\\baudio\\Project\\ProjectBaudio\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -1936,8 +2043,30 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

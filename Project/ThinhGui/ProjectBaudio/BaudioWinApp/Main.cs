@@ -29,8 +29,8 @@ namespace BaudioWinApp
 
         private void Main_Load(object sender, EventArgs e)
         {
-            IEnumerable<MemberAudioHistoryObject> Histories = memberAudioHistoryRepository.GetHistoryListByUserID(MemberInfor.MemberId);
-            LoadHistoryListByID(Histories);
+            //IEnumerable<MemberAudioHistoryObject> Histories = memberAudioHistoryRepository.GetHistoryListByUserID(MemberInfor.MemberId);
+            //LoadHistoryListByID(Histories);
 
             //if (dgvBookList.Rows.Count != 0)
             //{
@@ -105,7 +105,8 @@ namespace BaudioWinApp
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            //LoadHistoryListByID();
+            IEnumerable<MemberAudioHistoryObject> Histories = memberAudioHistoryRepository.GetHistoryListByUserID(MemberInfor.MemberId);
+            LoadHistoryListByID(Histories);
         }
 
         private void cellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -120,6 +121,21 @@ namespace BaudioWinApp
             infoBook.addedDate = dgvBookList.CurrentRow.Cells[2].Value.ToString();
 
             infoBook.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Dispose();
+                this.Hide();
+                frmLogin login = new frmLogin();
+                login.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

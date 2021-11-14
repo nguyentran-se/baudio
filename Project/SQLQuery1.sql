@@ -22,13 +22,11 @@ create table Member(
  create table MemberAudioHistory(
 	HistoryID int IDENTITY(1,1) NOT NULL,
 	MemberId int NOT NULL,
-	BookID int NOT NULL,
 	BookName varchar(100) NULL,
 	AudioPath varchar(100) NULL,
 	AddedDate datetime NOT NULL,
 	constraint PK_MemberAudioHistory PRIMARY KEY(HistoryID),
- 	constraint FK_MAH_Member FOREIGN KEY(MemberId) REFERENCES Member(MemberId),
-	constraint FK_MAH_Book FOREIGN KEY(BookID) REFERENCES Book(BookID)
+ 	constraint FK_MAH_Member FOREIGN KEY(MemberId) REFERENCES Member(MemberId)
  )
  go
  insert Member(Username,[Password]) values

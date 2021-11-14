@@ -27,7 +27,10 @@ namespace BaudioWinApp
 
         private void btnBook_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            ManagerHistory managerHistory = new ManagerHistory();
+            managerHistory.Show();
+            return;
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
